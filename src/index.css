@@ -1,0 +1,71 @@
+/* Reset and base styles for TrackIt landing page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color-scheme: light;
+  color: #213547;
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* Warm color palette for 25-50 age group */
+  --primary-orange: #ff6b35;
+  --secondary-coral: #f7931e;
+  --accent-peach: #ffd23f;
+  --warm-yellow: #f4a261;
+  --soft-cream: #e9c46a;
+  --warm-brown: #e76f51;
+  --deep-orange: #d62828;
+  --soft-pink: #ff8fa3;
+  --warm-purple: #9d4edd;
+  --soft-blue: #4cc9f0;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Global link styles */
+a {
+  font-weight: 500;
+  color: #4f46e5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #4338ca;
+}
+
+/* Global button reset */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Ensure no horizontal scroll */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
